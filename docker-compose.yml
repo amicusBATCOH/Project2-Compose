@@ -9,8 +9,6 @@ services:
       - 2375
     networks:
       - jenkins_dind
-    environment:
-      DOCKER_TLS_CERTDIR: ""
 
   jenkins:
     image: jenkins/jenkins:lts
